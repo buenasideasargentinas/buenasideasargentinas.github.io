@@ -4,6 +4,25 @@
     <title>Mi primer WEB</title>
   </head>
   <body>
+  
+  
+  
+<video width="640" height="360" controls autoplay>
+  <source src="ruta-al-video/video.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
+
+<script>
+  var video = document.getElementsByTagName('video')[0];
+  video.addEventListener('ended',function(){
+    window.location.href = "https://www.paginaweb.com";
+  },false);
+</script>
+
+
+
+  
+  
     <div id="una capa">
       <h1>Hola mundo!</h1>
       <p>Este es un ejemplo del uso de HTML para crear un documento web que nuestro navegador es capaz de interpretar.</p>
